@@ -1,0 +1,51 @@
+# jemdoc: menu{MENU}{cli-cheatsheet.html}
+= Command-line cheatsheet
+
+This is meant to be a quick list of commands that are useful as you're getting started with the Unix/Linux command-line and various other tools.
+
+In these examples, items in +/CAPITAL ITALIC/+ represent items that should be replaced, usually with a file or directory name.
+
+= Moving around
++cd /DIR/+  *c*hange to a *d*irectory
+
++pwd+ Print the *p*resent *w*orking *d*irectory (i.e., where you are)
+
++ls+ *list* the contents of the current directory
+
+= Files and directories
++touch /FILE/+ creates FILE, or updates its modification time if it already exists
+
++rm /FILE/+ removes FILE
+
++mkdir /DIR/+ creates the directory DIR
+
++rmdir /DIR/+ removes the directory DIR
+
++cp /SRC/ /DST/+ copies the file SRC to DST
+
+= Provide
++provide ee200 /ASSIGNMENT/ /FILE/+ submits FILE for grading.
+
+= A more useful prompt
+The default prompt ( e.g, +sunfire62{sbell03}33}+ ) isn't very helpful.
+
+You can get a better one by editing the file +~/.cshrc+, and putting the following lines at the end:
+
+~~~
+{}{}
+# Use a nice prompt
+# %n is your current username
+# %m is the hostname
+# %~ shows the current directory, and uses ~ for home
+set prompt="%n@%m\:%~> "
+~~~
+
+For a fancier color version, use this:
+~~~
+{}{}
+# Color prompt
+# You can change the last number to try different colors
+# The first two numbers control background and bold
+set prompt="%{\e[38;5;9m%}%n%{\e[38;5;15m%}@%{\e[38;5;3m%}%m%{\e[38;5;7m%}\:%{\e[38;5;6m%}%~%{\e[0m%}> "
+~~~
+

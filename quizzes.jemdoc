@@ -1,0 +1,9 @@
+# jemdoc: menu{MENU}{quizzes.html}
+= Quizzes
+
+These should be submitted via `provide` from one of the Linux machines.
+
+- [quizzes/quiz_00.txt Welcome survey (Quiz 0)]
+- [quizzes/quiz_01.txt Reading code (Quiz 1)]
+
+
