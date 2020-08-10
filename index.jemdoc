@@ -6,14 +6,49 @@ Class sessions are on Mondays and Wednesdays, 4:30-5:45pm in Halligan Hall 108.
 
 
 
-* Quick links:* [http://www.gradescope.com Gradescope] -- [http://piazza.com/tufts/fall2018/ee200 Piazza]
+* Quick links:* [http://www.gradescope.com Gradescope] -- [http://piazza.com/tufts/fall2019/ee200 Piazza]
 
 * Notices *
 ~~~
-{28 August 2018}
-Class starts on *Wednesday, September 5* at 4:30pm in Halligan 108.
+{6 August 2019}
+Class starts on *Wednesday, September 4* at 4:30pm in Halligan 108.
 Please bring a laptop if you have one.
 
 I look forward to seeing you there!
 ~~~
 
+~~~
+{}{table}{scheduletable}
+       |           | Quiz               | Topic                                       | AoP reading | Assignment ||
+Sep 4  | Wednesday |                    | [slides/lecture01.pdf Welcome and introduction]                    |             | [hw/hw1.txt Welcome survey (provide)] ||
+Sep 9  | Monday    | [quizzes/quiz_02.txt 2] | [slides/lecture02.pdf Reading code, types]                         | 2,3         | [hw/hw2.txt Homework 2 (provide)] ||
+Sep 11 | Wednesday | [quizzes/quiz_03.txt 3] | [slides/lecture03.pdf Writing, compiling, and debugging code]      | 1-1.3, 4-6  | Homework 3 (git\/gradescope) ||
+Sep 16 | Monday    | [quizzes/quiz_04.txt 4] | [slides/lecture04.pdf Pointers ]                                  | 8           | Homework 4 (Due 9\/23) ||
+Sep 18 | Wednesday | [quizzes/quiz_05.txt 5] | [slides/lecture05.pdf Arrays ]                                    | 9           | Homework 5 (Due 9\/25)||
+Sep 23 | Monday    | [quizzes/quiz_06.txt 6] | [slides/lecture06.pdf Using pointers and arrays for good and evil] ([slides/stringoverrun.c code]) | 10          | Homework 6 (Due 9\/30)||
+Sep 25 | Wednesday |                    | Even more on pointers and arrays            |             |  ||
+Sep 30 | Monday    | [quizzes/quiz_08.txt 8] | No class |  |  ||
+Oct 2  | Wednesday | [quizzes/quiz_09.txt 9] | Interacting with the user and system ([slides/syscall.c syscall.c] [slides/linenumbers.c linenumbers.c] ) | 11          | Homework 7 ||
+Oct 7  | Monday    |    | Recursion                                   | 7           | Homework 8 ||
+Oct 9  | Wednesday |    | *Exam 1* |  |  ||
+Oct 14 | Monday    |    | /No class – Indigenous People’s Day/ |  |  ||
+Oct 15 | Tuesday   | [quizzes/quiz_10.txt 10] | Dynamic allocation | 12 |  ||
+Oct 16 | Wednesday | [quizzes/quiz_11.txt 11] | Object-oriented programming | 14, 16 | Homework 10 (Due 10\/21) ||
+Oct 21 | Monday    | [quizzes/quiz_12.txt 12] | Constructors and destructors ([slides/makingcopies.cpp makingcopies.cpp]) | 15 | Homework 11 (Due 10\/28) ||
+Oct 23 | Wednesday | [quizzes/quiz_13.txt 13] | Templates ([slides/templates1.cpp templates1.cpp], [slides/template2.cpp template2.cpp]) | 17 | Homework 12 (Due 11\/1) ||
+Oct 28 | Monday    | [quizzes/quiz_14.txt 14] | Inheritance ([slides/shape_inheritance.cpp shape_inheritance.cpp]) | 18 |  ||
+Oct 30 | Wednesday | [quizzes/quiz_15.txt 15] | Error handling ([slides/exceptions.cpp exceptions.cpp]) | 19 | Homework 13 (Due 11\/4) ||
+Nov 4  | Monday    | [quizzes/quiz_16.txt 16] | Concurrency, callbacks, and the real world ([slides/threadtimer.cpp threadtimer.cpp]) |  |  ||
+Nov 6  | Wednesday |    | *Exam 2* |  |  ||
+Nov 11 | Monday    |    | /No class -- Veterans Day/ |  |  ||
+Nov 13 | Wednesday | [quizzes/quiz_17.txt 17] | Overview of algorithm analysis: Big-O and sorting | 20.1, 26 |  ||
+Nov 18 | Monday    | [quizzes/quiz_18.txt 18] | Linked lists | 21 |  ||
+Nov 20 | Wednesday | [quizzes/quiz_19.txt 19] | Binary Search Trees | 22 |  ||
+Nov 25 | Monday    | [quizzes/quiz_20.txt 20] | Hash tables | 23 |  ||
+Nov 27 | Wednesday |    | /No class -- Thanksgiving break/ |  |  ||
+Dec 2  | Monday    | [quizzes/quiz_21.txt 21] | Heaps and priority queues | 24 | [hw/hw15.zip Homework 15] (Due 12\/6)\nHomework 16 (Due 12\/10) ||
+Dec 4  | Wednesday | [quizzes/quiz_22.txt 22] | Multithreading in modern C++ | 28 |  ||
+Dec 9  | Monday    | [quizzes/quiz_23.txt 23] | Graphs | 25 |  ||
+       |           |    |  |  |  ||
+Dec 12 | Thursday  |    | Final exam 7-9pm |  | 
+~~~

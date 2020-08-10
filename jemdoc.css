@@ -1,7 +1,36 @@
-#instructor tr.r1 { font-weight: bold; }
-#tas tr.r1 { font-weight: bold; }
-#sections tr.r1 { font-weight: bold; }
-#sections td.c1 { font-weight: bold; }
+#scheduletable {
+    border-style: none;
+}
+
+/* Hack to make sure first column doesn't wrap */
+#scheduletable td.c1 { width: 3.8em; }
+
+#scheduletable tr.r1 { font-weight: bold; border-bottom: 2px solid black; }
+/* Ugly way to make every other row gray */
+#scheduletable tr.r1 { background-color: #eeeeee; }
+#scheduletable tr.r3 { background-color: #eeeeee; }
+#scheduletable tr.r5 { background-color: #eeeeee; }
+#scheduletable tr.r7 { background-color: #eeeeee; }
+#scheduletable tr.r9 { background-color: #eeeeee; }
+#scheduletable tr.r11 { background-color: #eeeeee; }
+#scheduletable tr.r13 { background-color: #eeeeee; }
+#scheduletable tr.r15 { background-color: #eeeeee; }
+#scheduletable tr.r17 { background-color: #eeeeee; }
+#scheduletable tr.r19 { background-color: #eeeeee; }
+#scheduletable tr.r21 { background-color: #eeeeee; }
+#scheduletable tr.r23 { background-color: #eeeeee; }
+#scheduletable tr.r25 { background-color: #eeeeee; }
+#scheduletable tr.r27 { background-color: #eeeeee; }
+#scheduletable tr.r29 { background-color: #eeeeee; }
+
+#scheduletable td{
+    padding: 5px;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    text-align: left;
+    border-style: solid;
+    border-color: #dddddd;
+}
 
 
 /* Default css file for jemdoc. */
@@ -45,7 +74,7 @@ body {
     background: white;
     text-align: left;
     vertical-align: top;
-	width: 800px;
+	width: 1000px;
 }
 
 #layout-menu a {

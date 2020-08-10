@@ -1,17 +1,17 @@
 # jemdoc: menu{MENU}{classwork.html}
 = Classwork
 
-- [classwork/classwork_01.txt Classwork 1] (submit via +provide+ as +c1+)
-- [classwork/classwork_02.txt Classwork 2] (submit via +provide+ as +c2+)
-- Classwork 3: (submit on Gradescope by Monday 9\/24 4:30pm) \n
-  +git clone [https://github.com/stevenbell/tufts_ee200_classwork3.git]+
-
-- Classwork 4: (submit on Gradescope by Wednesday 9\/26 4:30pm) \n 
-  +git clone [https://github.com/stevenbell/tufts_ee200_classwork4.git]+
-
-- Classwork 6 and later are published via individual git repositories
-
-- [exams/exam1_excitedly.zip Exam 1 computer section starter code]
-
-- [classwork/btree_libs.zip Classwork 15]: (submit your test file(s) on Gradescope by Monday 12\/3 at 11:59pm)
+# - [classwork/classwork_01.txt Classwork 1] (submit via +provide+ as +c1+)
+# - [classwork/classwork_02.txt Classwork 2] (submit via +provide+ as +c2+)
+# - Classwork 3: (submit on Gradescope by Monday 9\/24 4:30pm) \n
+#   +git clone [https://github.com/stevenbell/tufts_ee200_classwork3.git]+
+# 
+# - Classwork 4: (submit on Gradescope by Wednesday 9\/26 4:30pm) \n 
+#   +git clone [https://github.com/stevenbell/tufts_ee200_classwork4.git]+
+# 
+# - Classwork 6 and later are published via individual git repositories
+# 
+# - [exams/exam1_excitedly.zip Exam 1 computer section starter code]
+# 
+# - [classwork/btree_libs.zip Classwork 15]: (submit your test file(s) on Gradescope by Monday 12\/3 at 11:59pm)
 
