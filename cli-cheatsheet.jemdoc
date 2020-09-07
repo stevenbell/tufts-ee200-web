@@ -32,7 +32,7 @@ Run +vimtutor+ from a command prompt, and work through lesson 1.
 = A more useful prompt
 The default prompt ( e.g, +sunfire62{sbell03}33}+ ) isn't very helpful.
 
-You can get a better one by editing the file +~/.cshrc+, and putting the following lines at the end:
+You can get a better one by editing the file +\~/.cshrc+, and putting the following lines at the end:
 
 ~~~
 {}{}

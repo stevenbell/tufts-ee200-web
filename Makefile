@@ -1,5 +1,5 @@
 # Jemdoc pages to compile
-PAGES=index quizzes classwork cli-cheatsheet slides exams
+PAGES=index cli-cheatsheet
 
 # Command to run jemdoc
 JEMDOC=python ./jemdoc.py
@@ -15,7 +15,7 @@ all : $(PHPAGES)
 # Push the pages to the web server
 .PHONY : push
 push : $(PHPAGES)
-	scp html/* sbell@linux.eecs.tufts.edu:/ee/200/public_html
+	scp -r html/* sbell@linux.eecs.tufts.edu:/ee/200/public_html
 
 html/%.html : %.jemdoc MENU
 	$(JEMDOC) -o $@ $<

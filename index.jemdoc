@@ -1,54 +1,130 @@
 # jemdoc: menu{MENU}{index.html}
 = EE 200 --- Accelerated programming for graduate students
 
+For Fall 2020 this course will be completely online with no scheduled class meetings.
 
-Class sessions are on Mondays and Wednesdays, 4:30-5:45pm in Halligan Hall 108.
+* Quick links:* [http://www.gradescope.com Gradescope] -- [https://campuswire.com/c/G863E04C7 Campuswire]
 
-
-
-* Quick links:* [http://www.gradescope.com Gradescope] -- [http://piazza.com/tufts/fall2019/ee200 Piazza]
-
-* Notices *
+== Notices
 ~~~
-{6 August 2019}
-Class starts on *Wednesday, September 4* at 4:30pm in Halligan 108.
-Please bring a laptop if you have one.
-
-I look forward to seeing you there!
+{10 August 2020}
+Class starts on *Wednesday, September 9*.  Look for more course information soon!
 ~~~
 
+Once the semester starts, all communication will take place via Campuswire or email.
+
+
+== Schedule and links
+Unless otherwise specified, assignments are due at 11:59pm (US Eastern time) on the day listed.
+
 ~~~
-{}{table}{scheduletable}
-       |           | Quiz               | Topic                                       | AoP reading | Assignment ||
-Sep 4  | Wednesday |                    | [slides/lecture01.pdf Welcome and introduction]                    |             | [hw/hw1.txt Welcome survey (provide)] ||
-Sep 9  | Monday    | [quizzes/quiz_02.txt 2] | [slides/lecture02.pdf Reading code, types]                         | 2,3         | [hw/hw2.txt Homework 2 (provide)] ||
-Sep 11 | Wednesday | [quizzes/quiz_03.txt 3] | [slides/lecture03.pdf Writing, compiling, and debugging code]      | 1-1.3, 4-6  | Homework 3 (git\/gradescope) ||
-Sep 16 | Monday    | [quizzes/quiz_04.txt 4] | [slides/lecture04.pdf Pointers ]                                  | 8           | Homework 4 (Due 9\/23) ||
-Sep 18 | Wednesday | [quizzes/quiz_05.txt 5] | [slides/lecture05.pdf Arrays ]                                    | 9           | Homework 5 (Due 9\/25)||
-Sep 23 | Monday    | [quizzes/quiz_06.txt 6] | [slides/lecture06.pdf Using pointers and arrays for good and evil] ([slides/stringoverrun.c code]) | 10          | Homework 6 (Due 9\/30)||
-Sep 25 | Wednesday |                    | Even more on pointers and arrays            |             |  ||
-Sep 30 | Monday    | [quizzes/quiz_08.txt 8] | No class |  |  ||
-Oct 2  | Wednesday | [quizzes/quiz_09.txt 9] | Interacting with the user and system ([slides/syscall.c syscall.c] [slides/linenumbers.c linenumbers.c] ) | 11          | Homework 7 ||
-Oct 7  | Monday    |    | Recursion                                   | 7           | Homework 8 ||
-Oct 9  | Wednesday |    | *Exam 1* |  |  ||
-Oct 14 | Monday    |    | /No class – Indigenous People’s Day/ |  |  ||
-Oct 15 | Tuesday   | [quizzes/quiz_10.txt 10] | Dynamic allocation | 12 |  ||
-Oct 16 | Wednesday | [quizzes/quiz_11.txt 11] | Object-oriented programming | 14, 16 | Homework 10 (Due 10\/21) ||
-Oct 21 | Monday    | [quizzes/quiz_12.txt 12] | Constructors and destructors ([slides/makingcopies.cpp makingcopies.cpp]) | 15 | Homework 11 (Due 10\/28) ||
-Oct 23 | Wednesday | [quizzes/quiz_13.txt 13] | Templates ([slides/templates1.cpp templates1.cpp], [slides/template2.cpp template2.cpp]) | 17 | Homework 12 (Due 11\/1) ||
-Oct 28 | Monday    | [quizzes/quiz_14.txt 14] | Inheritance ([slides/shape_inheritance.cpp shape_inheritance.cpp]) | 18 |  ||
-Oct 30 | Wednesday | [quizzes/quiz_15.txt 15] | Error handling ([slides/exceptions.cpp exceptions.cpp]) | 19 | Homework 13 (Due 11\/4) ||
-Nov 4  | Monday    | [quizzes/quiz_16.txt 16] | Concurrency, callbacks, and the real world ([slides/threadtimer.cpp threadtimer.cpp]) |  |  ||
-Nov 6  | Wednesday |    | *Exam 2* |  |  ||
-Nov 11 | Monday    |    | /No class -- Veterans Day/ |  |  ||
-Nov 13 | Wednesday | [quizzes/quiz_17.txt 17] | Overview of algorithm analysis: Big-O and sorting | 20.1, 26 |  ||
-Nov 18 | Monday    | [quizzes/quiz_18.txt 18] | Linked lists | 21 |  ||
-Nov 20 | Wednesday | [quizzes/quiz_19.txt 19] | Binary Search Trees | 22 |  ||
-Nov 25 | Monday    | [quizzes/quiz_20.txt 20] | Hash tables | 23 |  ||
-Nov 27 | Wednesday |    | /No class -- Thanksgiving break/ |  |  ||
-Dec 2  | Monday    | [quizzes/quiz_21.txt 21] | Heaps and priority queues | 24 | [hw/hw15.zip Homework 15] (Due 12\/6)\nHomework 16 (Due 12\/10) ||
-Dec 4  | Wednesday | [quizzes/quiz_22.txt 22] | Multithreading in modern C++ | 28 |  ||
-Dec 9  | Monday    | [quizzes/quiz_23.txt 23] | Graphs | 25 |  ||
-       |           |    |  |  |  ||
-Dec 12 | Thursday  |    | Final exam 7-9pm |  | 
+{}{raw}
+<table id="scheduletable">
+<tr class="title"><td></td><td>Welcome and introduction</td></tr>
+<tr><td>Wednesday, Sep 9</td><td class="video">Introduction to the course</td></tr>
+<tr><td></td><td class="video">What this course is really about</td></tr>
+<tr><td></td><td class="video">Organization of the course</td></tr>
+<tr><td></td><td class="video">How to complete HW 1</td></tr>
+<tr><td></td><td class="todo">Purchase <a href="">textbook</a></td></tr>
+<tr><td></td><td class="todo">Read <a href="ee200-syllabus-fa20.pdf">syllabus</a></td></tr>
+<tr><td></td><td class="quiz">Complete Homework 1 (due 9/14 via provide)</td></tr>
+
+<tr class="title"><td></td><td>Reading code + datatypes</td></tr>
+<tr><td></td><td class="reading">Read AoP ch 2-3</td></tr>
+<tr><td>Monday, Sep 14</td><td class="quiz"><a href="quizzes/quiz_02.txt">Quiz 2</a> (there is no quiz 1)</td></tr>
+<tr><td></td><td class="video">Scope example</td></tr>
+<tr><td></td><td class="video">++i vs i++</td></tr>
+<tr><td></td><td class="video">What's the point of enum and typedef?</td></tr>
+<tr><td></td><td class="video">Case fall-through and braces</td></tr>
+<tr><td></td><td class="video">On comparing floating point numbers</td></tr>
+<tr><td></td><td class="video">Two's complement</td></tr>
+<tr><td></td><td class="video">Bad code in real life: Ariane 5 rocket</td></tr>
+<tr><td></td><td class="video">Vim tips: moving quickly</td></tr>
+<tr><td></td><td class="quiz">Start Homework 2 (due 9/17 via provide)</td></tr>
+
+<tr class="title"><td></td><td>Writing, compiling, and debugging code</td></tr>
+<tr><td></td><td class="reading">Read AoP ch 1-1.3, 4-6</td></tr>
+<tr><td>Thursday, Sep 17</td><td class="quiz"><a href="quizzes/quiz_03.txt">Quiz 3</a></td></tr>
+<tr><td></td><td class="homework">Start Homework 3 (due 9/24 via git/gradescope)</td></tr>
+
+<tr class="title"><td></td><td>Pointers</td></tr>
+<tr><td></td><td class="reading">Read AoP ch 8</td></tr>
+<tr><td></td><td class="quiz"><a href="quizzes/quiz_04.txt">Quiz 4</a></td></tr>
+
+<tr class="title"><td></td><td>Arrays</td></tr>
+<tr><td></td><td class="reading">Read AoP ch 9</td></tr>
+<tr><td></td><td class="quiz"><a href="quizzes/quiz_05.txt">Quiz 5</a></td></tr>
+
+<tr class="title"><td></td><td>Using pointers and arrays for good and evil</td></tr>
+<tr><td></td><td class="reading">Read AoP ch 10</td></tr>
+<tr><td></td><td class="quiz"><a href="quizzes/quiz_06.txt">Quiz 6</a></td></tr>
+
+<tr class="title"><td></td><td>Interacting with the user and system</td></tr>
+<tr><td></td><td class="reading">Read AoP ch 11</td></tr>
+<tr><td></td><td class="quiz"><a href="quizzes/quiz_08.txt">Quiz 8</a> (there is no quiz 7)</td></tr>
+
+<tr class="title"><td></td><td>Recursion</td></tr>
+<tr><td></td><td class="reading">Read AoP ch 7</td></tr>
+<tr><td></td><td class="quiz"><a href="quizzes/quiz_09.txt">Quiz 9</a></td></tr>
+
+<tr class="title"><td></td><td>Dynamic allocation</td></tr>
+<tr><td></td><td class="reading">Read AoP ch 12</td></tr>
+<tr><td></td><td class="quiz"><a href="quizzes/quiz_10.txt">Quiz 10</a></td></tr>
+
+<tr class="title"><td></td><td>Object-oriented programming</td></tr>
+<tr><td></td><td class="reading">Read AoP ch 14,16</td></tr>
+<tr><td></td><td class="quiz"><a href="quizzes/quiz_11.txt">Quiz 11</a></td></tr>
+
+<tr class="title"><td></td><td>Constructors and destructors</td></tr>
+<tr><td></td><td class="reading">Read AoP ch 15</td></tr>
+<tr><td></td><td class="quiz"><a href="quizzes/quiz_12.txt">Quiz 12</a></td></tr>
+
+<tr class="title"><td></td><td>Templates</td></tr>
+<tr><td></td><td class="reading">Read AoP ch 17</td></tr>
+<tr><td></td><td class="quiz"><a href="quizzes/quiz_13.txt">Quiz 13</a></td></tr>
+
+<tr class="title"><td></td><td>Inheritance</td></tr>
+<tr><td></td><td class="reading">Read AoP ch 18</td></tr>
+<tr><td></td><td class="quiz"><a href="quizzes/quiz_14.txt">Quiz 14</a></td></tr>
+
+<tr class="title"><td></td><td>Error handling</td></tr>
+<tr><td></td><td class="reading">Read AoP ch 19</td></tr>
+<tr><td></td><td class="quiz"><a href="quizzes/quiz_15.txt">Quiz 15</a></td></tr>
+
+<tr class="title"><td></td><td>Concurrency, callbacks, and the real world</td></tr>
+<tr><td></td><td class="reading">Read ...</td></tr>
+<tr><td></td><td class="quiz"><a href="quizzes/quiz_16.txt">Quiz 16</a></td></tr>
+
+<tr class="title"><td></td><td>Overview of algorithm analysis and sorting</td></tr>
+<tr><td></td><td class="reading">Read AoP ch 20.1, 26</td></tr>
+<tr><td></td><td class="quiz"><a href="quizzes/quiz_17.txt">Quiz 17</a></td></tr>
+
+<tr class="title"><td></td><td>Linked lists</td></tr>
+<tr><td></td><td class="reading">Read AoP ch 21</td></tr>
+<tr><td></td><td class="quiz"><a href="quizzes/quiz_18.txt">Quiz 18</a></td></tr>
+
+<tr class="title"><td></td><td>Binary search trees</td></tr>
+<tr><td></td><td class="reading">Read AoP ch 22</td></tr>
+<tr><td></td><td class="quiz"><a href="quizzes/quiz_19.txt">Quiz 19</a></td></tr>
+
+<tr class="title"><td></td><td>Hash tables</td></tr>
+<tr><td></td><td class="reading">Read AoP ch 23</td></tr>
+<tr><td></td><td class="quiz"><a href="quizzes/quiz_20.txt">Quiz 20</a></td></tr>
+
+<tr class="title"><td></td><td>Heaps and priority queues</td></tr>
+<tr><td></td><td class="reading">Read AoP ch 24</td></tr>
+<tr><td></td><td class="quiz"><a href="quizzes/quiz_21.txt">Quiz 21</a></td></tr>
+
+<tr class="title"><td></td><td>Multithreading in modern C</td></tr>
+<tr><td></td><td class="reading">Read AoP ch 28</td></tr>
+<tr><td></td><td class="quiz"><a href="quizzes/quiz_22.txt">Quiz 22</a></td></tr>
+
+<tr class="title"><td></td><td>Graphs</td></tr>
+<tr><td></td><td class="reading">Read AoP ch 25</td></tr>
+<tr><td></td><td class="quiz"><a href="quizzes/quiz_23.txt">Quiz 23</a></td></tr>
+
+
+</table>
+
 ~~~
+
