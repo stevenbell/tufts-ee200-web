@@ -1,0 +1,17 @@
+# jemdoc: menu{MENU}{practice.html}
+= How do I get more practice?
+
+There are two basic areas to sharpen your skills: algorithmic thinking and working on large projects.  Syntax and language knowledge is helpful but less important.  If you have a deep understanding of the fundamental concepts, the exact details of the language you're working with can always be looked up.
+
+== Algorithm/coding practice
+- [https://projecteuler.net/ Project Euler] has a few hundred problems of increasing difficulty.  The site has a mathematical bent: the problems involve numbers, geometry, graph theory, etc, and not string manipulation or data structures.
+- [https://leetcode.com/ LeetCode] has been popular with EE 200 students in the past.
+- [https://edabit.com/ Edabit] has tons of very small challenges, intended to help you learn to code.  It may be less effective for "coding interview" type practice.
+- [https://www.dailycodingproblem.com/ Daily Coding Problem] will email you a coding problem every day, with a specific focus on coding interviews.
+
+== Working on real projects
+In this course, and in the coding challenges above, you will write "small" programs.  But most real applications contain thousands or millions of lines of code, and learning to work on projects like this requires an additional set of skills.
+
+The best way to get these skills is to contribute code to an open-source project.  Find a program that you're interested in, or which you use already, and figure out how to improve it!  It might be an annoying bug or a feature you'd like to add.  Many open-source projects keep a list of bugs or small improvements which are good for newcomers to the project.
+
+

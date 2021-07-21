@@ -1,5 +1,5 @@
 # Jemdoc pages to compile
-PAGES=index cli-cheatsheet
+PAGES=index cli-cheatsheet practice slides
 
 # Command to run jemdoc
 JEMDOC=python ./jemdoc.py

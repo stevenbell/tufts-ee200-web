@@ -5,13 +5,11 @@ For Fall 2020 this course will be completely online with no scheduled class meet
 
 * Quick links:* [http://www.gradescope.com Gradescope] -- [https://campuswire.com/c/G863E04C7 Campuswire]
 
-== Notices
-~~~
-{10 August 2020}
-Class starts on *Wednesday, September 9*.  Look for more course information soon!
-~~~
-
-Once the semester starts, all communication will take place via Campuswire or email.
+== Office hours
+I will have regular office hours on Tuesday and Friday evening 8-9:30pm US EST.
+You can see these posted on this calendar:
+[https://calendar.google.com/calendar/embed?src=jqv8i8fejpbggot1r8k7qooqoc%40group.calendar.google.com&ctz=America%2FNew_York&mode=WEEK   US Eastern time] |
+[https://calendar.google.com/calendar/embed?src=jqv8i8fejpbggot1r8k7qooqoc%40group.calendar.google.com&ctz=Asia/Shanghai&mode=WEEK  Beijing time]
 
 
 == Schedule and links
@@ -20,108 +18,148 @@ Unless otherwise specified, assignments are due at 11:59pm (US Eastern time) on 
 ~~~
 {}{raw}
 <table id="scheduletable">
-<tr class="title"><td></td><td>Welcome and introduction</td></tr>
-<tr><td>Wednesday, Sep 9</td><td class="video">Introduction to the course</td></tr>
-<tr><td></td><td class="video">What this course is really about</td></tr>
-<tr><td></td><td class="video">Organization of the course</td></tr>
-<tr><td></td><td class="video">How to complete HW 1</td></tr>
+<tr class="title"><td>1</td><td>Welcome and introduction</td></tr>
+<tr><td>Wednesday, Sep 9</td><td class="video"><a href="https://youtu.be/cL3zq6GkKgw">Introduction to the course</a></td></tr>
+<tr><td></td><td class="video"><a href="https://youtu.be/t6yL6pvDqCg">What this course is really about</a></td></tr>
+<tr><td></td><td class="video"><a href="https://youtu.be/kOQIKirqug8">Organization of the course</a></td></tr>
+<tr><td></td><td class="video"><a href="https://youtu.be/it9TTbxOnEQ">How to complete HW 1</a></td></tr>
 <tr><td></td><td class="todo">Purchase <a href="">textbook</a></td></tr>
 <tr><td></td><td class="todo">Read <a href="ee200-syllabus-fa20.pdf">syllabus</a></td></tr>
 <tr><td></td><td class="quiz">Complete Homework 1 (due 9/14 via provide)</td></tr>
 
-<tr class="title"><td></td><td>Reading code + datatypes</td></tr>
+<tr class="title"><td>2</td><td>Reading code + datatypes</td></tr>
 <tr><td></td><td class="reading">Read AoP ch 2-3</td></tr>
 <tr><td>Monday, Sep 14</td><td class="quiz"><a href="quizzes/quiz_02.txt">Quiz 2</a> (there is no quiz 1)</td></tr>
-<tr><td></td><td class="video">Scope example</td></tr>
-<tr><td></td><td class="video">++i vs i++</td></tr>
-<tr><td></td><td class="video">What's the point of enum and typedef?</td></tr>
-<tr><td></td><td class="video">Case fall-through and braces</td></tr>
-<tr><td></td><td class="video">On comparing floating point numbers</td></tr>
-<tr><td></td><td class="video">Two's complement</td></tr>
-<tr><td></td><td class="video">Bad code in real life: Ariane 5 rocket</td></tr>
-<tr><td></td><td class="video">Vim tips: moving quickly</td></tr>
+<tr><td></td><td class="video"><a href="https://youtu.be/boQU_TEXako">++i vs i++</a></td></tr>
+<tr><td></td><td class="video"><a href="">Enum, continue, and other language features (coming soon)</a></td></tr>
+<tr><td></td><td class="video"><a href="https://youtu.be/_ZBgubpxFw4">Doing math with integers</a></td></tr>
+<tr><td></td><td class="video"><a href="https://youtu.be/6GuG0bCZdXQ">On comparing floating point numbers</a></td></tr>
+<tr><td></td><td class="video"><a href="https://www.youtube.com/watch?v=4qH4unVtJkE">Binary number representations</a> (video from Ben Eater)</td></tr>
+<tr><td></td><td class="video"><a href="https://youtu.be/xfGvCe7Y8rI">Vim tips: moving quickly</a></td></tr>
+<tr><td></td><td class="reading"><a href="https://en.wikipedia.org/wiki/Cluster_(spacecraft)">Bad code in real life: Ariane 5 rocket</a></td></tr>
 <tr><td></td><td class="quiz">Start Homework 2 (due 9/17 via provide)</td></tr>
 
-<tr class="title"><td></td><td>Writing, compiling, and debugging code</td></tr>
+<tr class="title"><td>3</td><td>Writing, compiling, and debugging code</td></tr>
 <tr><td></td><td class="reading">Read AoP ch 1-1.3, 4-6</td></tr>
-<tr><td>Thursday, Sep 17</td><td class="quiz"><a href="quizzes/quiz_03.txt">Quiz 3</a></td></tr>
+<tr><td>Friday, Sep 18</td><td class="quiz"><a href="quizzes/quiz_03.txt">Quiz 3</a></td></tr>
+<tr><td></td><td class="video"><a href="https://youtu.be/zYb3pwsMi5A">Cloning your first homework repository with git</a></td></tr>
+<tr><td></td><td class="video"><a href="https://youtu.be/XLbiUoXIZh0">Compiling your code with gcc</a></td></tr>
+<tr><td></td><td class="video"><a href="https://youtu.be/CDMPZWYrUoE">Committing and pushing your code back to Github</a></td></tr>
+<tr><td></td><td class="video"><a href="https://youtu.be/HgOCEDGX2_k">Submitting your homework on Gradescope</a></td></tr>
+<tr><td></td><td class="video"><a href="https://youtu.be/HLf5r0NLnsI">Understanding test coverage</a></td></tr>
 <tr><td></td><td class="homework">Start Homework 3 (due 9/24 via git/gradescope)</td></tr>
 
-<tr class="title"><td></td><td>Pointers</td></tr>
+<tr class="title"><td>4</td><td>Pointers</td></tr>
 <tr><td></td><td class="reading">Read AoP ch 8</td></tr>
-<tr><td></td><td class="quiz"><a href="quizzes/quiz_04.txt">Quiz 4</a></td></tr>
+<tr><td>Monday, Sep 21</td><td class="quiz"><a href="quizzes/quiz_04.txt">Quiz 4</a></td></tr>
+<tr><td></td><td class="video"><a href="">Using tabs in Vim</a></td></tr>
+<tr><td></td><td class="video"><a href="https://www.youtube.com/watch?v=5VnDaHBi8dM">Pointer fun with Binky</a> (video from Nick Parlante)</td></tr>
+<tr><td></td><td class="homework">Start Homework 4 (due 9/28 via git/gradescope)</td></tr>
 
-<tr class="title"><td></td><td>Arrays</td></tr>
+<tr class="title"><td>5</td><td>Arrays</td></tr>
 <tr><td></td><td class="reading">Read AoP ch 9</td></tr>
-<tr><td></td><td class="quiz"><a href="quizzes/quiz_05.txt">Quiz 5</a></td></tr>
+<tr><td>Thursday, Sep 24</td><td class="quiz"><a href="quizzes/quiz_05.txt">Quiz 5</a></td></tr>
+<tr><td></td><td class="video"><a href="https://youtu.be/VwFMY2-WT2Y">Some SSH tips</a></td></tr>
+<tr><td></td><td class="homework">Start Homework 5 (due 10/1 via git/gradescope)</td></tr>
 
-<tr class="title"><td></td><td>Using pointers and arrays for good and evil</td></tr>
+<tr class="title"><td>6</td><td>Using pointers and arrays for good and evil</td></tr>
 <tr><td></td><td class="reading">Read AoP ch 10</td></tr>
-<tr><td></td><td class="quiz"><a href="quizzes/quiz_06.txt">Quiz 6</a></td></tr>
+<tr><td>Monday, Sep 28</td><td class="quiz"><a href="quizzes/quiz_06.txt">Quiz 6</a></td></tr>
+<tr><td></td><td class="video"><a href="https://youtu.be/meBKAyr_09g">Introduction to tmux</a></td></tr>
+<tr><td></td><td class="homework">Start Homework 6 (due 10/9 via git/gradescope)</td></tr>
 
-<tr class="title"><td></td><td>Interacting with the user and system</td></tr>
+<tr class="title"><td>8</td><td>Interacting with the user and system</td></tr>
 <tr><td></td><td class="reading">Read AoP ch 11</td></tr>
-<tr><td></td><td class="quiz"><a href="quizzes/quiz_08.txt">Quiz 8</a> (there is no quiz 7)</td></tr>
+<tr><td>Monday, Oct 5</td><td class="quiz"><a href="quizzes/quiz_08.txt">Quiz 8</a> (there is no quiz 7)</td></tr>
+<tr><td></td><td class="video"><a href="https://youtu.be/K_YkxlL2h5g">Introduction to Make</a></td></tr>
+<tr><td></td><td class="homework">Start Homework 7 (due 10/12 via git/gradescope)</td></tr>
 
-<tr class="title"><td></td><td>Recursion</td></tr>
+
+<tr class="title"><td>9</td><td>Recursion</td></tr>
 <tr><td></td><td class="reading">Read AoP ch 7</td></tr>
-<tr><td></td><td class="quiz"><a href="quizzes/quiz_09.txt">Quiz 9</a></td></tr>
+<tr><td>Thursday, Oct 8</td><td class="quiz"><a href="quizzes/quiz_09.txt">Quiz 9</a></td></tr>
+<tr><td></td><td class="homework">Start Homework 8 (due 10/15 via git/gradescope)</td></tr>
 
-<tr class="title"><td></td><td>Dynamic allocation</td></tr>
+<tr class="title"><td>10</td><td>Dynamic allocation</td></tr>
 <tr><td></td><td class="reading">Read AoP ch 12</td></tr>
-<tr><td></td><td class="quiz"><a href="quizzes/quiz_10.txt">Quiz 10</a></td></tr>
+<tr><td>Monday, Oct 12</td><td class="quiz"><a href="quizzes/quiz_10.txt">Quiz 10</a></td></tr>
+<tr><td></td><td class="video"><a href="https://youtu.be/7FxCunrIOk4">Using Valgrind</a></td></tr>
+<tr><td></td><td class="homework">Start Homework 9 (due 10/19 via git/gradescope)</td></tr>
 
-<tr class="title"><td></td><td>Object-oriented programming</td></tr>
+<tr class="title"><td>11</td><td>Object-oriented programming</td></tr>
 <tr><td></td><td class="reading">Read AoP ch 14,16</td></tr>
-<tr><td></td><td class="quiz"><a href="quizzes/quiz_11.txt">Quiz 11</a></td></tr>
+<tr><td>Thursday, Oct 15</td><td class="quiz"><a href="quizzes/quiz_11.txt">Quiz 11</a></td></tr>
+<tr><td></td><td class="homework">Start Homework 10</td></tr>
 
-<tr class="title"><td></td><td>Constructors and destructors</td></tr>
+<tr class="title"><td>12</td><td>Constructors and destructors</td></tr>
 <tr><td></td><td class="reading">Read AoP ch 15</td></tr>
-<tr><td></td><td class="quiz"><a href="quizzes/quiz_12.txt">Quiz 12</a></td></tr>
+<tr><td>Monday, Oct 19</td><td class="quiz"><a href="quizzes/quiz_12.txt">Quiz 12</a></td></tr>
+<tr><td>Tuesday-Friday</td><td class="quiz">Coding interview 1 (<a href="exams/2018_exam.pdf">2018 exam 1</a>, <a href="exams/2018_exam_codesection.pdf">2018 exam coding problem</a>)</td></tr>
+<tr><td></td><td class="homework">Start Homework 11</td></tr>
 
-<tr class="title"><td></td><td>Templates</td></tr>
+<tr class="title"><td>13</td><td>Templates</td></tr>
 <tr><td></td><td class="reading">Read AoP ch 17</td></tr>
-<tr><td></td><td class="quiz"><a href="quizzes/quiz_13.txt">Quiz 13</a></td></tr>
+<tr><td>Monday, Oct 26</td><td class="quiz"><a href="quizzes/quiz_13.txt">Quiz 13</a></td></tr>
+<tr><td></td><td class="homework">Start Homework 12</td></tr>
+<tr><td></td><td class="reading"><a href="https://chris.beams.io/posts/git-commit/">How to write good Git commit messages</a></td></tr>
+<tr><td></td><td class="reading"><a href="https://hackaday.com/2019/03/05/good-code-documents-itself-and-other-hilarious-jokes-you-shouldnt-tell-yourself/">"Good code documents itself" and other hilarious jokes you shouldn't tell yourself -- Hackaday</a></td></tr>
 
-<tr class="title"><td></td><td>Inheritance</td></tr>
+<tr class="title"><td>14</td><td>Inheritance</td></tr>
 <tr><td></td><td class="reading">Read AoP ch 18</td></tr>
-<tr><td></td><td class="quiz"><a href="quizzes/quiz_14.txt">Quiz 14</a></td></tr>
+<tr><td>Thursday, Oct 29</td><td class="quiz"><a href="quizzes/quiz_14.txt">Quiz 14</a></td></tr>
+<tr><td></td><td class="video"><a href="https://youtu.be/YUmPeXDaOqY">Using branches in Git</a></td></tr>
 
-<tr class="title"><td></td><td>Error handling</td></tr>
+<tr class="title"><td>15</td><td>Error handling</td></tr>
 <tr><td></td><td class="reading">Read AoP ch 19</td></tr>
-<tr><td></td><td class="quiz"><a href="quizzes/quiz_15.txt">Quiz 15</a></td></tr>
+<tr><td>Monday, Nov 2</td><td class="quiz"><a href="quizzes/quiz_15.txt">Quiz 15</a></td></tr>
+<tr><td></td><td class="video"><a href="https://youtu.be/In5_TXly3sM">UnluckyNumber exception demonstration</a> (<a href="code/exceptions.cpp">Source code</a>)</td></tr>
+<tr><td></td><td class="homework">Start Homework 13 (due 11/30 via git/gradescope)</td></tr>
 
-<tr class="title"><td></td><td>Concurrency, callbacks, and the real world</td></tr>
-<tr><td></td><td class="reading">Read ...</td></tr>
-<tr><td></td><td class="quiz"><a href="quizzes/quiz_16.txt">Quiz 16</a></td></tr>
+<tr class="title"><td>16</td><td>Concurrency, callbacks, and the real world</td></tr>
+<tr><td></td><td class="reading"><a href="https://computing.llnl.gov/tutorials/pthreads/">Pthreads tutorial (multithreading)<td></tr>
+<tr><td></td><td class="reading"><a href="https://wiki.libsdl.org/SDL_AddTimer">SDL addTimer function (callbacks)</a></td></tr>
+<tr><td></td><td class="quiz"><a href="quizzes/quiz_16.txt">Quiz 16</a> (optional)</td></tr>
 
-<tr class="title"><td></td><td>Overview of algorithm analysis and sorting</td></tr>
+<tr class="title"><td>17</td><td>Overview of algorithm analysis and sorting</td></tr>
 <tr><td></td><td class="reading">Read AoP ch 20.1, 26</td></tr>
-<tr><td></td><td class="quiz"><a href="quizzes/quiz_17.txt">Quiz 17</a></td></tr>
+<tr><td>Tuesday, Nov 24</td><td class="quiz"><a href="quizzes/quiz_17.txt">Quiz 17</a></td></tr>
+<tr><td></td><td class="video"><a href="https://youtu.be/sycpZOc0sOE">Using GDB for debugging</a></td></tr>
 
-<tr class="title"><td></td><td>Linked lists</td></tr>
+<tr class="title"><td>18</td><td>Linked lists</td></tr>
 <tr><td></td><td class="reading">Read AoP ch 21</td></tr>
-<tr><td></td><td class="quiz"><a href="quizzes/quiz_18.txt">Quiz 18</a></td></tr>
+<tr><td>Thursday, Dec 3</td><td class="quiz"><a href="quizzes/quiz_18.txt">Quiz 18</a></td></tr>
+<tr><td></td><td class="homework">Start Homework 14 (due 12/8 via git/gradescope)</td></tr>
 
-<tr class="title"><td></td><td>Binary search trees</td></tr>
+<tr class="title"><td>19</td><td>Binary search trees</td></tr>
 <tr><td></td><td class="reading">Read AoP ch 22</td></tr>
-<tr><td></td><td class="quiz"><a href="quizzes/quiz_19.txt">Quiz 19</a></td></tr>
+<tr><td>Saturday, Dec 5</td><td class="quiz"><a href="quizzes/quiz_19.txt">Quiz 19</a></td></tr>
+<tr><td></td><td class="homework">Start <a href="hw15.zip">Homework 15</a> (due 12/11 via <b>provide</b>)</td></tr>
 
-<tr class="title"><td></td><td>Hash tables</td></tr>
+<tr class="title"><td>20</td><td>Hash tables</td></tr>
 <tr><td></td><td class="reading">Read AoP ch 23</td></tr>
-<tr><td></td><td class="quiz"><a href="quizzes/quiz_20.txt">Quiz 20</a></td></tr>
+<tr><td>Monday, Dec 7</td><td class="quiz"><a href="quizzes/quiz_20.txt">Quiz 20</a></td></tr>
 
-<tr class="title"><td></td><td>Heaps and priority queues</td></tr>
+<tr class="title"><td>21</td><td>Heaps and priority queues</td></tr>
 <tr><td></td><td class="reading">Read AoP ch 24</td></tr>
-<tr><td></td><td class="quiz"><a href="quizzes/quiz_21.txt">Quiz 21</a></td></tr>
+<tr><td>Thursday, Dec 10</td><td class="quiz"><a href="quizzes/quiz_21.txt">Quiz 21</a></td></tr>
+<tr><td></td><td class="homework">Start Homework 16 (due 12/22 via git/gradescope)</td></tr>
 
-<tr class="title"><td></td><td>Multithreading in modern C</td></tr>
+<tr class="title"><td>22</td><td>Multithreading in modern C</td></tr>
 <tr><td></td><td class="reading">Read AoP ch 28</td></tr>
-<tr><td></td><td class="quiz"><a href="quizzes/quiz_22.txt">Quiz 22</a></td></tr>
+<tr><td></td><td class="quiz"><a href="quizzes/quiz_22.txt">Quiz 22</a> (optional)</td></tr>
+<tr><td></td><td class="homework">Start Homework 17 (optional)</td></tr>
 
-<tr class="title"><td></td><td>Graphs</td></tr>
+<tr class="title"><td>23</td><td>Graphs</td></tr>
 <tr><td></td><td class="reading">Read AoP ch 25</td></tr>
-<tr><td></td><td class="quiz"><a href="quizzes/quiz_23.txt">Quiz 23</a></td></tr>
+<tr><td></td><td class="quiz"><a href="quizzes/quiz_23.txt">Quiz 23</a> (optional)</td></tr>
+
+<tr class="title"><td></td><td>Final coding interview materials</td></tr>
+<tr><td></td><td class="reading"><a href="exams/final_reviewsheet.pdf">Topic review sheet</a></td></tr>
+<tr><td></td><td class="reading"><a href="exams/2018_exam2.pdf">2018 Exam #2</a></td></tr>
+<tr><td></td><td class="reading"><a href="exams/2018_exam3.pdf">2018 Exam #3</a></td></tr>
+<tr><td></td><td class="homework"><a href="code/howmany.cpp">"How many copies?" example</a></td></tr>
+<tr><td></td><td class="homework"><a href="code/templates3.cpp">Template-based tuple example </a></td></tr>
+<tr><td></td><td class="homework"><a href="code/shape_inheritance.cpp">Inheritance example</a></td></tr>
 
 
 </table>
